@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: black;
+  /* background-image: url("../../public/assets/fondopagina.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+  color: #fff;
+
+
+}
+
+::selection {
+  background: #795203;
+}
+
+.degradedBlue {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  padding: 5px 0;
+}
+
+.swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgba(218, 171, 0, 0.6) !important;
+}
+
+.slider-horizontal {
+  display: flex;
+  animation: swipe 5000ms linear infinite backwards;
+}
+
+@keyframes swipe {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
+}
+
+
+

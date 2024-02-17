@@ -6,12 +6,9 @@ html {
   scroll-behavior: smooth;
 }
 
-
 body {
   background-color: black;
   color: #fff;
-
-
 }
 
 ::selection {
@@ -47,6 +44,3 @@ body {
     transform: translate(-100%);
   }
 }
-
-
-

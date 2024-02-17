@@ -11,7 +11,7 @@ export function Footer() {
                 <div>
                     <Image src="/assets/logo.png" width={200} height={40} alt="Logo Bank" />
                     <Reveal>
-                        <p className="mt-5 text-primaryDark max-w-[250px]">Una nueva forma de hacer pagos de forma sencilla</p>
+                        <p className="mt-5 text-primaryDark max-w-[250px]">Una nueva forma de hacer pagos de forma sencillaaa</p>
                     </Reveal>
                 </div>
                 {footerData.map(({ id, title, links }) => (
